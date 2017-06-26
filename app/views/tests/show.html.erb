@@ -12,7 +12,7 @@
 
 <p>
   <strong>Image:</strong>
-  <%= @test.image %>
+  <%= image_tag @pet.image.thumb.url %>
 </p>
 
 <%= link_to 'Edit', edit_test_path(@test) %> |
